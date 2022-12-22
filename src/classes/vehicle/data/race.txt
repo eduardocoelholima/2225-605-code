@@ -1,0 +1,11 @@
+Road I-90 4000
+Vehicle Earnhardt 35 20 100
+Vehicle Petty 50 12 93
+Vehicle Gordon 22 11 105
+Vehicle Yarbourough 30 35 96
+Vehicle Johnson 35 15 102
+Vehicle Busch 38 17 97
+Vehicle Burton 24 25 101
+Vehicle Jarrett 35 20 100
+Vehicle Craven 21 10 106
+Vehicle Bodine 40 15 95
