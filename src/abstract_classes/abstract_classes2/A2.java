@@ -1,4 +1,4 @@
-package classes.inheritance;
+package abstract_classes.abstract_classes2;
 
 /**
  * This file is used by B.java

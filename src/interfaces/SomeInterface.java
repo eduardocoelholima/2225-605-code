@@ -11,7 +11,6 @@ public interface SomeInterface {
     default void doDefault() {
         System.out.println("default method");
         doSomething();
-
     }
 
     public static void doStatic() {
