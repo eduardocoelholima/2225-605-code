@@ -3,22 +3,24 @@ package inheritance.inheritance2;//package classes.inheritance;
 public class  Overview	{
     int 			instanceVariable;
     static    int 	classVariable;
-    final     int 	finalVariable; // static?
+    static  int 	finalVariable = 42; // static?
     volatile  int 	volatileVariable;
     transient int		transientVariable;
 
     public Overview()	{
-        finalVariable = 42;
+//        finalVariable = 42;
     }
 
     public Overview(int aLocalVariable)	{
-        finalVariable = 43;
+//        finalVariable = 43;
     }
 
     void instanceMethod()	{
+        Overview x = new Overview(42);
+//        x.finalVariable = 42;
 //        finalVariable = 43;
-        instanceVariable = 22;
-        classVariable = 33;
+//        instanceVariable = 22;
+//        classVariable = 33;
     }
 
     static void classMethod()	{

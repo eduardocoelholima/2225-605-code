@@ -10,7 +10,8 @@ public class StringLiteral {
         // aString and bString are both literals and reference
         // to the same object at the String Pool
         String aString = "you";
-        String bString = "yo" + "u";
+        String temp = "u";
+        String bString = "yo" + temp;
 
         // equals method compares the actual content of the object
         if ("you".equals(aString)) {

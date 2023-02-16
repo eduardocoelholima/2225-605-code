@@ -5,7 +5,7 @@ public class Parent {
 
     public Parent concatenate(String value) {
         this.value = this.value + value;
-        return this;
+        return new Parent();
     }
 
     public static void main(String[] args) {
