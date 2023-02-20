@@ -1,4 +1,4 @@
-package classes.generics;
+package generics.generics2;
 
 public class Cube extends Square {
 

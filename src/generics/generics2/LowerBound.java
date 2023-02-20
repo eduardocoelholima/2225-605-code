@@ -1,8 +1,9 @@
-package classes.generics;
+package generics.generics2;
 
 import java.util.LinkedList;
 import java.util.List;
 
+// inheritance: area ->  square -> cube -> brick
 class LowerBound {
     public static void main(String[] args) {
         List<Cube>  listOfCube = new LinkedList<Cube>();

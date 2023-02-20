@@ -1,4 +1,4 @@
-package classes.generics;
+package generics.generics2;
 
 class Compare {
     public static <K, V> boolean compare(Fruit<K, V> p1, Fruit<K, V> p2) {
