@@ -12,6 +12,7 @@ class TestFinallyBlock2 {
         } finally {
             System.out.println("finally block");
         }
+
         System.out.println("rest of the code...");
     }
 }

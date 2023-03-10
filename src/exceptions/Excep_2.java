@@ -1,5 +1,7 @@
 package exceptions;
 
+import static java.lang.Thread.sleep;
+
 /**
  * This class plays with exceptions
  *
@@ -12,15 +14,17 @@ package exceptions;
 
 public class Excep_2 {
 
-    public static void main(String[] args) {
+    public static void main  (String[] args) {
         for (int index = 1; index < 3; index++) {
             try {
+                sleep(100);
                 new Excep_2().f(index);
             } catch (NullPointerException e) {
                 e.printStackTrace();
             } catch (Exception e) {
-                System.out.println(e.getMessage());
+//                System.out.println(e.getMessage());
             }
+            System.out.println("hello");
         }
     }
 
