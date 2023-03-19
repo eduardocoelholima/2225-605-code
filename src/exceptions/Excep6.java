@@ -12,12 +12,12 @@ class Excep6 {
             try {
                 int a[] = new int[5];
                 a[5] = 4;
-            } catch (ArrayIndexOutOfBoundsException e) {
+            } catch (ArithmeticException e) {
                 System.out.println(e);
             }
             System.out.println("other statement");
         } catch (Exception e) {
-            System.out.println("handeled");
+            System.out.println("handled");
         }
         System.out.println("normal flow..");
     }
