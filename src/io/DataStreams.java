@@ -16,17 +16,17 @@ public class DataStreams {
             out.writeBoolean(false);
             out.flush();
             //reading from input2.txt
-            System.out.println(in.readChar());
-            System.out.println(in.readInt());
-            System.out.println(in.readDouble());
-            System.out.println(in.readBoolean());
-
-//            for (int i=0; i<"example of data streams".length(); i++)
-//                System.out.print(in.readChar());
-//            System.out.println();
+//            System.out.println(in.readChar());
 //            System.out.println(in.readInt());
 //            System.out.println(in.readDouble());
 //            System.out.println(in.readBoolean());
+
+            for (int i=0; i<"example of data streams".length(); i++)
+                System.out.print(in.readBoolean());
+            System.out.println();
+            System.out.println(in.readInt());
+            System.out.println(in.readDouble());
+            System.out.println(in.readBoolean());
 
 
         } catch (IOException ef) {
