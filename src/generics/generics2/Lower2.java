@@ -41,7 +41,7 @@ public class Lower2 {
         List<? extends B> list2 = new ArrayList<B>();
 //        list2.add( new B() ); // curiously, java does not see a B instance as a fit candidate, why is that?
         // this is because java will consider the upper-bounded type parameter as a different type that the regular
-        // type parameter, so <?superB> does not match <B>
+        // type parameter, so <?extendsB> does not match <B>
         List<B> lb = new ArrayList<>();
         List<? extends A2> la = lb;
 //        la.add(new A());  // compile-time error
