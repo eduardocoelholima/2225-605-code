@@ -9,10 +9,10 @@ class D extends C {}
 
 public class Q1<T extends A> {
 
-    T instance;
-    public Q1(T instance) {
-        this.instance = instance;
-    }
+//    T instance;
+//    public Q1(T instance) {
+//        this.instance = instance;
+//    }
 
     public static void main(String[] args)	{
         List<Q1<? super B>> cList = new LinkedList<Q1<? super B>>();

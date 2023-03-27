@@ -27,7 +27,7 @@ public class NLetterWords {
 
             PrintWriter out = null;
             if ( args[ 2 ].equals( "-" ) ) {
-                out = new PrintWriter( System.out );
+                out = new PrintWriter( System.out , true);
             }
             else {
                 out = new PrintWriter( new File( args[ 2 ] ) );
@@ -35,8 +35,11 @@ public class NLetterWords {
 
             while ( in.hasNext() ) {
                 String word = in.next();
-                if ( word.length() == n )
-                    out.println( word );
+                if ( word.length() == n ) {
+                    out.println(word); // this will need to be flushed
+                }
+                out.flush();
+
             }
 
             in.close();

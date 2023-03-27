@@ -8,7 +8,7 @@ public class Q3 {
 				try {
 					System.out.println("" + intArray[1]);
 					System.out.println("Exception 0 ");
-				} catch(Exception e) {
+				} catch(NullPointerException e) {
 					System.out.println("Exception 1 ");
 				}
 			} catch(Exception e){
