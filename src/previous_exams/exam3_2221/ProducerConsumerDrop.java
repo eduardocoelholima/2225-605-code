@@ -1,4 +1,4 @@
-package exam3;
+package previous_exams.exam3_2221;
 
 public class ProducerConsumerDrop {
     public static void main(String[] args) {

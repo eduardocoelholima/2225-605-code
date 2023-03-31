@@ -1,4 +1,4 @@
-package exam1;
+package previous_exams.exam1_2221;
 //5
 
 // what is the output of this program?

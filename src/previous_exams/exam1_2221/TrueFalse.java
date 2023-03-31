@@ -1,4 +1,4 @@
-package exam1;
+package previous_exams.exam1_2221;
 //4
 
 // For each statement, mark True or False and Explain the reason to support your answer.

@@ -1,12 +1,11 @@
-package exam3;
+package previous_exams.exam3_2221;
 
-import java.rmi.Naming;
+import java.rmi.*;
 
-public class HelloClient {
+public class HelloC {
     public static void main(String args[] ) {
 	try {
 	  HelloInterface obj = (HelloInterface) Naming.lookup("//localhost/HelloServer");
-	  obj = new HelloImplementation();
 	  int[] anArray = {0, 1};
 	  obj.methodOne(anArray);
 	  System.out.println(anArray[0]);

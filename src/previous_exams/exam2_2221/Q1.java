@@ -1,4 +1,4 @@
-package exam2;
+package previous_exams.exam2_2221;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -9,15 +9,15 @@ class D extends C {}
 
 public class Q1<T extends A> {
 
-//    T instance;
-//    public Q1(T instance) {
-//        this.instance = instance;
-//    }
+    T instance;
+    public Q1(T instance) {
+        this.instance = instance;
+    }
 
     public static void main(String[] args)	{
         List<Q1<? super B>> cList = new LinkedList<Q1<? super B>>();
-        cList.add( new Q1<A>(new A() ) );
-        cList.add( new Q1<B>(new B() ) );
+//        cList.add( new Q1<A>(new A() ) );
+//        cList.add( new Q1<B>(new B() ) );
 //        cList.add( new Q1<C>(new C() ) );
 //        cList.add( new Q1<D>(new D() ) );
     }

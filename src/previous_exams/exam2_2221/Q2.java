@@ -1,4 +1,4 @@
-package previous_exams.2221_exam2;
+package previous_exams.exam2_2221;
 import java.util.ArrayList;
 import java.util.Collection;
 public class Q2<T> {

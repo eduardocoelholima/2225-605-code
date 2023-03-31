@@ -1,4 +1,4 @@
-package exam2;
+package previous_exams.exam2_2221;
 import java.io.*;
 
 public class Q4 implements Serializable {

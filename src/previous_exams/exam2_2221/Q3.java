@@ -1,4 +1,4 @@
-package exam2;
+package previous_exams.exam2_2221;
 
 public class Q3 {
 	public void run() {

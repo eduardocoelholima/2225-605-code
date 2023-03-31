@@ -1,4 +1,4 @@
-package exam1;
+package previous_exams.exam1_2221;
 //2
 
 //    For each of the following patterns, provide TWO strings that would be matched:

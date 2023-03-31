@@ -1,4 +1,4 @@
-package exam2;
+package previous_exams.exam2_2221;
 
 abstract class AbstractClass<T> {
     abstract void go(T aT);
