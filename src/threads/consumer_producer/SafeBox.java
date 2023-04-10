@@ -1,4 +1,4 @@
-package threads.consumerProducer;
+package threads.consumer_producer;
 
 /**
  * The SafeBox has methods for storing and retrieving an integer.

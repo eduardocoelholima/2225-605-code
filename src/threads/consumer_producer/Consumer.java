@@ -1,4 +1,4 @@
-package threads.consumerProducer;
+package threads.consumer_producer;
 
 /**
  * The consumer consumes all integers in the SafeBox as quickly as

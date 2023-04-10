@@ -1,5 +1,3 @@
-package threads.threads2;
-
 import java.util.*;
 
 public class DeadLock extends Thread	{

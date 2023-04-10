@@ -1,5 +1,3 @@
-package threads.threads2;
-
 public class DeadLock_4 extends Thread	{
 	private String info;
 	Object o_1;
@@ -29,7 +27,7 @@ public class DeadLock_4 extends Thread	{
 	public static void main (String args []) {
 		Object o_1 = new Object();
 		Object o_2 = new Object();
-//		Object stop = new Object();
+		Object stop = new Object();
 		new DeadLock_4("0", o_1, o_2).start();
 	}
 }

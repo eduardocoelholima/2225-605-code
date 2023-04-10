@@ -1,4 +1,4 @@
-package threads.consumerProducer;
+package threads.consumer_producer;
 
 /**
  * The producers generate unique integers and stores them in
