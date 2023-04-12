@@ -1,4 +1,5 @@
-package threads.threads2;/*
+package threads.threads2;
+/*
  * Should print out 1 2 3 1 2 3 1 2 3 ...
  */
 

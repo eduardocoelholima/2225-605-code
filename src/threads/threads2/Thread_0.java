@@ -1,3 +1,4 @@
+package threads.threads2;
 
 public class Thread_0 extends Thread    {
     private String info;

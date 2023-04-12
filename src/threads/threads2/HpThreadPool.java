@@ -1,3 +1,5 @@
+package threads.threads2;
+
 import java.util.concurrent.LinkedBlockingQueue;
 
 public class HpThreadPool {

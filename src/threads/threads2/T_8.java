@@ -1,3 +1,5 @@
+package threads.threads2;
+
 import java.util.Vector;
 
 /* is 0 1 0 1 ... the only possible output? */

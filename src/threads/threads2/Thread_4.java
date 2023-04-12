@@ -1,3 +1,5 @@
+package threads.threads2;
+
 import java.util.*;
 
 public class Thread_4 extends Thread    {

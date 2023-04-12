@@ -1,3 +1,5 @@
+package threads.threads2;
+
 import java.util.Vector;
 
 public class WaitAndNotify_2 extends Thread	{
@@ -13,7 +15,7 @@ public class WaitAndNotify_2 extends Thread	{
  	public void run() {
 	   synchronized ( aVector )	{
 		if (  info.equals("second") )	{
-			System.out.println(info + " is waking up one
+			System.out.println(info + " is waking up one");
 			aVector.notifyAll();
 			System.out.println(info + " done.");
 		} else {

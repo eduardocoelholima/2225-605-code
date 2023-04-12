@@ -1,3 +1,5 @@
+package threads.threads2;
+
 public class DeadLock_4 extends Thread	{
 	private String info;
 	Object o_1;

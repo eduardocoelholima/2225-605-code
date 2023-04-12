@@ -1,3 +1,5 @@
+package threads.threads2;
+
 import java.util.Vector;
 
 public class WaitAndNotify_First extends Thread	{

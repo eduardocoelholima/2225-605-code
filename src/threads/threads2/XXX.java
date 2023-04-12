@@ -1,3 +1,5 @@
+package threads.threads2;
+
 /*
  * Should print out 0 1 0 1 0 1 ...
  *

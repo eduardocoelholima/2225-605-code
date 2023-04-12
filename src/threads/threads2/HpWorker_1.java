@@ -1,3 +1,5 @@
+package threads.threads2;
+
 public class HpWorker_1 implements Runnable {
 
     private int id;

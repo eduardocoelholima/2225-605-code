@@ -1,3 +1,5 @@
+package threads.threads2;
+
 public class Thread_5e extends Thread    {
     static Object o = new Object();
     static int counter = 0;
