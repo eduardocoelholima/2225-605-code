@@ -29,7 +29,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-package sockets.knock;
+package networking.sockets.knock;
 
 import java.io.*;
 import java.net.*;

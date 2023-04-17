@@ -29,7 +29,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-package sockets.knock;
+package networking.sockets.knock;
 
 public class KKProtocol {
     private static final int WAITING = 0;
