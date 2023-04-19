@@ -30,7 +30,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-package datagrams;
+package networking.datagrams;
 
 import java.io.*;
 import java.net.*;
