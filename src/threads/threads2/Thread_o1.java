@@ -31,9 +31,9 @@ public class Thread_o1 extends Thread    {
         }
 
         public static void main (String args []) {
-		Thread_o1 aT_o0 = new Thread_o1("first");
-		Thread_o1 aT_o1 = new Thread_o1("second");
-                aT_o0.start();
-                aT_o1.start();
+		    Thread_o1 aT_o0 = new Thread_o1("first");
+		    Thread_o1 aT_o1 = new Thread_o1("second");
+            aT_o0.start();
+            aT_o1.start();
         }
 }

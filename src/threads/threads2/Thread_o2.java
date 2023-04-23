@@ -7,8 +7,8 @@ public class Thread_o2 extends Thread    {
         static  Vector aVector = new Vector();
 
         public Thread_o2 (String info, Vector aVector) {
-                this.info = info;
-		this.aVector = aVector;
+            this.info = info;
+		    this.aVector = aVector;
         }
 
         public void inProtected () {
@@ -33,9 +33,9 @@ public class Thread_o2 extends Thread    {
 
         public static void main (String args []) {
         	Vector aVector = new Vector();
-		Thread_o2 aT_o0 = new Thread_o2("first", aVector);
-		Thread_o2 aT_o2 = new Thread_o2("second", new Vector());
-                aT_o0.start();
-                aT_o2.start();
+		    Thread_o2 aT_o0 = new Thread_o2("first", aVector);
+		    Thread_o2 aT_o2 = new Thread_o2("second", new Vector());
+            aT_o0.start();
+            aT_o2.start();
         }
 }
