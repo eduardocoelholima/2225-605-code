@@ -30,13 +30,13 @@ public class Thread_5d extends Thread    {
 
         public static void main (String args []) {
         	Vector aVector = new Vector();
-                Thread_5d aT5_0 = new Thread_5d(aVector, "first");
-                aT5_0.start();
+            Thread_5d aT5_0 = new Thread_5d(aVector, "first");
+            aT5_0.start();
 
-                try { sleep(1000); } catch (  InterruptedException e ) { System.err.println("Interrupted!"); }
+            try { sleep(100); } catch (  InterruptedException e ) { System.err.println("Interrupted!"); }
 
         	aVector = new Vector();
-                Thread_5d aT5_1 = new Thread_5d(aVector, "second");
-                aT5_1.start();
+            Thread_5d aT5_1 = new Thread_5d(aVector, "second");
+            aT5_1.start();
         }
 }
