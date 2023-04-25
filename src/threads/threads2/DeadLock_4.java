@@ -18,7 +18,7 @@ public class DeadLock_4 extends Thread	{
 				if ( ! oneIsRunning )	{
 					new DeadLock_4("1", o_2, o_1).start();
 					oneIsRunning = true;
-					}
+				}
 				synchronized ( o_2 ) {
 					o_2.wait();
 					System.out.println("I will not get there");
