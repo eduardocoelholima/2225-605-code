@@ -1,5 +1,5 @@
 package threads.threads2;
-
+// always deadlock?
 import java.util.*;
 
 public class DeadLock extends Thread	{

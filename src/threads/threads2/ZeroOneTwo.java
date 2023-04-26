@@ -1,7 +1,6 @@
 package threads.threads2;
-/*
- * Should print out 1 2 3 1 2 3 1 2 3 ...
- */
+// roundrobin
+
 
 public class ZeroOneTwo extends Thread    {
     private int id;

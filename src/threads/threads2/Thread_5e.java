@@ -1,3 +1,5 @@
+// wait and notify
+
 package threads.threads2;
 
 public class Thread_5e extends Thread    {

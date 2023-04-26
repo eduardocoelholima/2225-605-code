@@ -1,13 +1,8 @@
 package threads.threads2;
+// alternating
+// what is the output?
+// only one possible?
 
-/*
- * is this output	1 0 1 0 1 ...
- *			...
- * the only possible output?
- *
- * Falsch: es ist nichtgarantiert, in welcher die
- * Threads eintreten.
- */
 public class X extends Thread	{
 	private String info;
 	static Object o = new Object();

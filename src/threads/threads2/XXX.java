@@ -1,10 +1,6 @@
 package threads.threads2;
+// what about now?
 
-/*
- * Should print out 0 1 0 1 0 1 ...
- *
- *
- */
 public class XXX extends Thread	{
 	private String info;
 	static Object o = new Object();

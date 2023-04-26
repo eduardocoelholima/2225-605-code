@@ -1,5 +1,5 @@
 package threads.threads2;
-
+// will this cause a deadlock?
 import java.util.Random;
 import java.util.Vector;
 
