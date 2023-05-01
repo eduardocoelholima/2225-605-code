@@ -16,7 +16,7 @@ public class X extends Thread	{
 				try {
 					o.notify();
 					sleep(100);
-					o.wait(1);
+					o.wait();
 				} catch ( Exception e ) { }
 			}
 		}
